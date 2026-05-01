@@ -17,4 +17,4 @@ jobs:
     runs-on: ubuntu-latest
     needs: learing-outputs
     steps:
-      - run: echo " deploying version: ${{ needs.learning-outputs.outputs.version }}"
+      - run: echo "deploying version: ${{ needs.learing-outputs.outputs.version }}"
